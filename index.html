@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom-style.css">
+	<script type="text/javascript">
+	// loads jumbotron and projects html pages
+		$(function(){
+		  $("#page-jumbotron").load("jumbotron.html");
+		  $("#page-projects").load("projects-new.html");
+		});
+	</script>
+</head>
+<body>
+	<div id="page-jumbotron"></div>
+	<div id="page-projects"></div>
+</body>
+</html>

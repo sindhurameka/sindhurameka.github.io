@@ -1,0 +1,157 @@
+/*General rules applied to body tag*/
+
+body {
+    background-image: url(/image/stripes.png);
+    font-family: 'Roboto', light;
+}
+/*header styles*/
+
+.navbar-default {
+    padding-top: 10px;
+    background-color: transparent !important;
+    border-bottom: 1;
+    border-left: 0;
+    border-right: 0;
+}
+
+.nav.navbar-nav.navbar-right li a,
+.nav.navbar-nav.navbar-left li a {
+    color: #ff666e;
+}
+
+ul.nav a:hover {
+    color: #89abe3!important;
+}
+
+/*jumbotron custom styles*/
+
+#jumbotron {
+    padding-top: 70px;
+    background-color: transparent;
+    padding: 0, 0, 0, 0;
+    margin-bottom: 0;
+}
+
+#jumbotron h1 {
+    color: #ff666e;
+    line-height: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50;
+    margin: 0;
+}
+
+#jumbotron h3 {
+    color: #89abe3;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20;
+}
+
+#jumbotron ul.list-inline a {
+    font-family: "Open Sans", sans-serif;
+    color: #ff666e!important;
+    font-size: 20;
+}
+
+#jumbotron ul.list-inline a:hover {
+    color: #89abe3!important;
+}
+
+.vertical-center {
+    width: 100%;
+    text-align: center;
+}
+
+/*projects.html*/
+
+#projects {
+    padding-top: 70px;
+}
+
+#projects .row img {
+    width: 70%;
+    display: block;
+    height: 40%;
+    margin: 0 auto;
+}
+
+#projects-new {
+    padding-top: 70px;
+}
+
+#projects-new img {
+    vertical-align: middle;
+    width: 55%;
+    padding-bottom: 30px;
+    min-width: 480px;
+}
+
+#projects-new .image {
+    position: relative;
+    width: 100%;
+}
+
+/* psd.html*/
+
+#featured-image img {
+    width: 100%;
+}
+
+#desc {
+    margin-bottom: 20px;
+}
+
+#desc h3,
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+#desc ul li {
+    font-family: "Open Sans", sans-serif;
+}
+
+#desc p {
+    margin: 5px;
+}
+
+/*performance.html*/
+
+#desc h3,
+h4 {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*about.html*/
+
+#about {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#about img {
+    margin: 30px;
+}
+
+#about p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    width: 80%;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+#about p span {
+    text-align: justify;
+}
+
+#about h4 {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#about ul a {
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+	<!-- This is a detail project description html file for Web performance Project-->
+	<title>Web Performance optimization</title>
+    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+	<script src="libs/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		  $("#page-header").load("header.html");
+
+		});
+    </script>
+</head>
+<body>
+	<div class="container" id= "desc">
+		<div id="featured-image">
+			<div id="jumbotron" class="vertical-center">
+				<img src="image/performance.png">
+			</div>
+		</div>
+		<h3>Optimizing the page rendering speed and getting the frame rates per second to 60 FPS</h3>
+		<p>This Project is a part of Udacity Front-end Nanodegree Program.</p>
+		<p>The goal of the project is to optimize the page rendering speed so that the google page insights points are 90 and above out of 100, for both mobile and desktop version of the webpage. Also the optimizing the javascript code to enable animation to run at 60FPS.</p>
+			<h3>Optimization made in the project</h3>
+			<h4>To increase the pagespeed score</h4>
+			<ul>
+				<li>Compressed and resized the images</li>
+			<li>Eliminated render-blocking JavaScript and CSS in above-the-fold content.</li>
+    		<ul>
+    			<li>Inlined the CSS.</li>
+    			<li>Used media print attribute for print.css link.</li>
+    			<li>Used async attribute for script tag.</li>
+   		    </ul>
+			<li>Minified the index.html File</li>
+			</ul>
+	   <h4>For Increasing the frame rate per second to 60FPS</h4>
+		   <ul>
+		   	<li>Used getElementbyId or getElementsbyClassName instead of QuerySelectors when necessary to optimize the performance.</li>
+		   	<li>Got the inloop value constant calculations ouside the loop and stored them in variables and used those variables in loop</li>
+		   	<li>Also made changes to the number of art elements to show based on viewport sizes.</li>
+	   </ul>
+		   <p>Check out the code here at
+		   		<a href="#">github repo</a>
+		   </p>
+	</div>
+</body>
+</html>

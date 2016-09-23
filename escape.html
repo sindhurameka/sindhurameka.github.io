@@ -1,0 +1,38 @@
+<html>
+<head>
+    <!-- This is a detail project description html file for Escape Bug Project-->
+	<title>Escape Bug</title>
+	<script src="libs/jquery.min.js"></script>
+	<script type="text/javascript">
+    	$(function(){
+    	  $("#page-header").load("header.html");
+
+    	});
+    </script>
+</head>
+<body>
+    <div id="page-header"></div>
+        <div class="container" id= "desc">
+    	<div id="featured-image">
+    		<div id="jumbotron" class="vertical-center">
+    			<img src="image/arcade.png">
+    		</div>
+	   </div>
+        <h3> An arcade game developed using HTML5 and Object Oriented Javascript</h3>
+        <p>This project is a part of Udacity Front-end Nanodegree Program.</p>
+        <p>The Goal of the project was to develop a fully functioning game by implementing
+            <strong>app.js</strong> - the game logic, using javaScript object-oriented programming features and HTML5 canvas for animation</p>
+        <p>Resources provided by the Udacity to complete the project are:</p>
+        <ul>
+    	   <li><strong>index.html : </strong> Loads all the .js files</li>
+    	   <li><strong>style.css : </strong> For basic elements styling</li>
+    	   <li><strong>images : </strong>Art assets for the project</li>
+    	   <li><strong>engine.js : </strong> This file provides the game loop functionality (update entities and render),draws the initial game board on the screen, and then calls the update and render methods on player and enemy objects</li>
+    	   <li><strong>resources.js : </strong> This is simply an image loading utility.It eases the process of loading image files so that they can be used within  game. It also includes a simple "caching" layer so it will reuse cached images if you attempt to load the same image multiple times.</li>
+        </ul>
+        <p>A screenshot of the Game</p>
+        <img src="image/project-images/arcade-game.png" height="400" width="auto">
+        <p>To play the game : <a href="#">Github repo</a></p>
+    </div>
+</body>
+</html>
