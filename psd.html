@@ -11,20 +11,35 @@
 
 		});
     </script>
+    <style>
+    @media (max-width: 600px) {
+
+      #desc h3{
+        font-size: 18px !important;
+        font-weight: bold;
+      }
+
+      #desc p {
+      	font-size: 14px !important;
+
+      }
+
+    }
+</style>
 </head>
 <body>
 	<div id="page-header"></div>
 	<div class="container" id= "desc">
 		<div id="featured-image">
 			<div id="jumbotron" class="vertical-center">
-				<img src="image/psd-html.png">
+				<img src="image/psd-html.png" class="img-responsive">
 			</div>
 		</div>
     	<h3>Recreating a webpage from a design Prototype</h3>
     	<p>This Project is a part of Udacity Front-end Nanodegree Program.</p>
     	<p>The goal of the project is to create a webpage that looks exactly like the provided Photoshop Document using HTML and CSS</p>
     	<p>Below is the psd file provided</p>
-   		<img src="image/project-images/prototype.png" height="700" width="370">
+   		<img src="image/project-images/prototype.png" class="img-responsive" alt="prototype header image">
 		<p>Requirments Specified:</p>
 		<ul>
 			<li>italicized text for the animal's interesting fact</li>
@@ -37,7 +52,7 @@
 			<li>Use alt attribute to describe image</li>
 		</ul>
 		<p>This is the final output</p>
-		<img src="image/project-images/output.png" height="700" width="auto">
+		<img src="image/project-images/output.png" class="img-responsive">
 		<p>
 			<a href="https://github.com/sindhurameka/animal-cards" target="_blank">Github repo</a>
 		</p>

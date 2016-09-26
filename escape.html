@@ -9,13 +9,25 @@
 
     	});
     </script>
+    <style>
+        @media (max-width: 600px) {
+          #desc h3{
+            font-size: 18px !important;
+            font-weight: bold;
+          }
+
+          #desc p {
+            font-size: 14px !important;
+          }
+        }
+</style>
 </head>
 <body>
     <div id="page-header"></div>
         <div class="container" id= "desc">
     	<div id="featured-image">
     		<div id="jumbotron" class="vertical-center">
-    			<img src="image/arcade.png">
+    			<img src="image/arcade.png" class="img-responsive">
     		</div>
 	   </div>
         <h3> An arcade game developed using HTML5 and Object Oriented Javascript</h3>
@@ -31,7 +43,7 @@
     	   <li><strong>resources.js : </strong> This is simply an image loading utility.It eases the process of loading image files so that they can be used within  game. It also includes a simple "caching" layer so it will reuse cached images if you attempt to load the same image multiple times.</li>
         </ul>
         <p>A screenshot of the Game</p>
-        <img src="image/project-images/arcade-game.png" height="400" width="auto">
+        <img src="image/project-images/arcade-game.png" height="400">
         <p>To play the game : <a href="https://github.com/sindhurameka/escape-the-bug" target="_blank">Github repo</a></p>
     </div>
 </body>
