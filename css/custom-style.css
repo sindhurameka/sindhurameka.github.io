@@ -2,8 +2,9 @@
 
 body {
     background-image: url(/image/stripes.png);
-    font-family: 'Roboto', light;
+    font-family: "Open Sans", sans-serif;
 }
+
 /*header styles*/
 
 .navbar-default {
@@ -15,8 +16,10 @@ body {
 }
 
 .nav.navbar-nav.navbar-right li a,
-.nav.navbar-nav.navbar-left li a {
+.navbar-default .navbar-brand {
     color: #ff666e;
+    font-family: "Open Sans", sans-serif;
+
 }
 
 ul.nav a:hover {
@@ -82,9 +85,8 @@ ul.nav a:hover {
 
 #projects-new img {
     vertical-align: middle;
-    width: 55%;
+    width: 65%;
     padding-bottom: 30px;
-    min-width: 480px;
 }
 
 #projects-new .image {
