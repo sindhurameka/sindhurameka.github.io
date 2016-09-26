@@ -5,22 +5,30 @@
 	<script>
 		$('#projects-new').addClass('animated infinites bounceInUp');
 	</script>
+	<style>
+	    @media (max-width: 500px) {
+	      #projects-new img {
+	      	width: 100% !important;
+	      	height: 25% !important;
+	      }
+	    }
+   </style>
 </head>
 <body>
 	<div class= "container-fluid vertical-center" id ="projects-new">
 		<div class="image">
 			<a href="psd.html">
-				<img src="image/psd-html.png" class="banner">
+				<img src="image/psd-html.png" class="banner" class="img-responsive" alt="prototype header image">
     		</a>
 		</div>
 		<div class="image">
 			<a href="escape.html">
-				<img src="image/arcade.png" class="banner">
+				<img src="image/arcade.png" class="banner" class="img-responsive" alt="arcade header image">
 		    </a>
 		</div>
 		<div class="image">
 			<a href="performance.html">
-				<img src="image/performance.png" class="banner">
+				<img src="image/performance.png" class="banner" class="img-responsive" alt="performance header image">
 		    </a>
 		</div>
 	</div>
